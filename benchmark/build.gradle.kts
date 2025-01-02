@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    id("org.jetbrains.kotlinx.benchmark") version "0.4.13"
+    alias(libs.plugins.kotlinx.benchmark)
 }
 
 repositories {
