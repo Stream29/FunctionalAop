@@ -3,3 +3,5 @@ plugins {
 }
 rootProject.name = "FunctionalAop"
 
+include("benchmark")
+include("library")
